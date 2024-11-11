@@ -1,0 +1,63 @@
+        body {
+            background-color: rgb(134, 37, 134);
+        }
+
+        .painel {
+            width: 1200px;
+            height: 950px;
+            background-color: white;
+            margin: auto;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+        }
+
+        #x {
+            height: 80px;
+            width: 100px;
+            background-color: rgb(134, 37, 134);
+            border: 2px solid white;
+            border-radius: 10px; 
+            color: white;
+            margin-left: -50px;
+            font-size: 20px;
+        }
+
+        .mensagem {
+            display: none;
+            position: fixed;
+            top: 50%;  
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            background-color: white;
+            border: 2px solid rgb(134, 37, 134);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            z-index: 1000;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .fazerCalculo {
+            background-color: rgb(134, 37, 134);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .resultado {
+            margin-top: 20px;
+            padding: 20px;
+            border: 2px solid rgb(134, 37, 134);
+            border-radius: 10px;
+            display: none;
+            font-size: 20px;
+            background-color:rgb(134, 37, 134);
+            color:white;
+        }
+    

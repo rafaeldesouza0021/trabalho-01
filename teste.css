@@ -1,0 +1,31 @@
+body { 
+    background-color: rgb(134, 37, 134);  
+
+}
+
+.painel {
+    margin: auto; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#entrar{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(134, 37, 134);
+    border: 2px solid white;
+    border-radius: 10px; 
+    color: white;
+    
+}
+
